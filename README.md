@@ -1,7 +1,5 @@
 # Recommender-System-for-AR-Glasses
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Stars](https://img.shields.io/github/stars/AzvenusK/Recommender-System-for-AR-Glasses.svg?style=flat&label=Star&maxAge=86400)
 [![GitHub open issues](https://img.shields.io/github/issues-raw/AzvenusK/Recommender-System-for-AR-Glasses.svg)](https://github.com/AzvenusK/Recommender-System-for-AR-Glasses/issues) 
 [![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/AzvenusK/Recommender-System-for-AR-Glasses.svg)](https://github.com/AzvenusK/Recommender-System-for-AR-Glasses/pulls) 
 ![](https://img.shields.io/github/repo-size/AzvenusK/Recommender-System-for-AR-Glasses.svg?label=Repo%20size&style=flat-square)&nbsp;

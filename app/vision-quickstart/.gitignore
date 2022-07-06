@@ -4,6 +4,9 @@
 *.ap_
 *.aab
 
+#Files for app/build
+app/build/intermediates/
+
 # Files for the ART/Dalvik VM
 *.dex
 

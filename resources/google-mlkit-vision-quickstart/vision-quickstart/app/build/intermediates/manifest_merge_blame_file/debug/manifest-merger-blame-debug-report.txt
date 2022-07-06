@@ -12,36 +12,36 @@
 12    APIs.
 13    -->
 14    <uses-sdk
-14-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:12:5-15:63
+14-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:12:5-15:63
 15        android:minSdkVersion="19"
-15-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:12:5-15:63
+15-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:12:5-15:63
 16        android:targetSdkVersion="31" />
-16-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:12:5-15:63
+16-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:12:5-15:63
 17
 18    <uses-feature android:name="android.hardware.camera" />
-18-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:17:5-59
-18-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:17:19-57
+18-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:17:5-59
+18-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:17:19-57
 19
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:19:5-66
-20-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:19:22-64
+20-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:19:5-66
+20-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:19:22-64
 21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-21-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:20:5-80
-21-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:20:22-78
+21-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:20:5-80
+21-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:20:22-78
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:21:5-79
-22-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:21:22-77
+22-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:21:5-79
+22-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:21:22-77
 23    <uses-permission android:name="android.permission.CAMERA" />
-23-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:22:5-64
-23-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:22:22-62
+23-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:22:5-64
+23-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:22:22-62
 24
 25    <queries>
-25-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:113:5-117:15
+25-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:113:5-117:15
 26        <intent>
-26-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:114:9-116:18
+26-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:114:9-116:18
 27            <action android:name="android.media.action.IMAGE_CAPTURE" />
-27-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:115:13-73
-27-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:115:21-70
+27-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:115:13-73
+27-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:115:21-70
 28        </intent>
 29    </queries>
 30
@@ -60,148 +60,148 @@
 35-->[androidx.work:work-runtime:2.7.0] C:\Users\Anmol Kumar\.gradle\caches\transforms-3\20da786c0a0f0d44bdf934c1c88da8cb\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
 36
 37    <application
-37-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:24:5-112:19
+37-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:24:5-112:19
 38        android:name="androidx.multidex.MultiDexApplication"
-38-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:25:9-61
+38-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:25:9-61
 39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 39-->[androidx.core:core:1.6.0] C:\Users\Anmol Kumar\.gradle\caches\transforms-3\e81a46ce724630cf8c3f5fda3ef39b62\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 40        android:debuggable="true"
 41        android:icon="@drawable/logo_mlkit"
-41-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:26:9-44
+41-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:26:9-44
 42        android:label="@string/app_name"
-42-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:27:9-41
+42-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:27:9-41
 43        android:testOnly="true"
 44        android:theme="@style/Theme.AppCompat" >
-44-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:28:9-47
+44-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:28:9-47
 45        <meta-data
-45-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:30:9-32:68
+45-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:30:9-32:68
 46            android:name="com.google.android.gms.version"
-46-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:31:13-58
+46-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:31:13-58
 47            android:value="@integer/google_play_services_version" />
-47-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:32:13-66
+47-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:32:13-66
 48
 49        <!--
 50          Optional: Add it to automatically download ML model to device after
 51          your app is installed.
 52        -->
 53        <meta-data
-53-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:36:9-38:62
+53-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:36:9-38:62
 54            android:name="com.google.mlkit.vision.DEPENDENCIES"
-54-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:37:13-64
+54-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:37:13-64
 55            android:value="barcode,face,ocr,ica,custom_ica" />
-55-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:38:13-60
+55-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:38:13-60
 56
 57        <activity
-57-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:40:9-48:20
+57-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:40:9-48:20
 58            android:name="com.google.mlkit.vision.demo.EntryChoiceActivity"
-58-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:41:13-48
+58-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:41:13-48
 59            android:exported="true"
-59-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:42:13-36
+59-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:42:13-36
 60            android:theme="@style/AppTheme" >
-60-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:43:13-44
+60-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:43:13-44
 61            <intent-filter>
-61-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:44:13-47:29
+61-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:44:13-47:29
 62                <action android:name="android.intent.action.MAIN" />
-62-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:45:17-68
-62-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:45:25-66
+62-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:45:17-68
+62-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:45:25-66
 63
 64                <category android:name="android.intent.category.LAUNCHER" />
-64-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:46:17-76
-64-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:46:27-74
+64-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:46:17-76
+64-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:46:27-74
 65            </intent-filter>
 66        </activity>
 67        <activity
-67-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:50:9-53:20
+67-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:50:9-53:20
 68            android:name="com.google.mlkit.vision.demo.java.ChooserActivity"
-68-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:51:13-49
+68-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:51:13-49
 69            android:exported="false" >
-69-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:52:13-37
+69-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:52:13-37
 70        </activity>
 71        <activity
-71-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:55:9-59:20
+71-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:55:9-59:20
 72            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
-72-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:56:13-53
+72-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:56:13-53
 73            android:exported="false"
-73-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:57:13-37
+73-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:57:13-37
 74            android:theme="@style/AppTheme" >
-74-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:58:13-44
+74-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:58:13-44
 75        </activity>
 76        <activity
-76-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:61:9-65:20
+76-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:61:9-65:20
 77            android:name="com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity"
-77-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:62:13-60
+77-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:62:13-60
 78            android:exported="false"
-78-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:63:13-37
+78-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:63:13-37
 79            android:theme="@style/AppTheme" >
-79-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:64:13-44
+79-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:64:13-44
 80        </activity>
 81        <activity
-81-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:67:9-71:20
+81-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:67:9-71:20
 82            android:name="com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity"
-82-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:68:13-59
+82-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:68:13-59
 83            android:exported="false"
-83-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:69:13-37
+83-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:69:13-37
 84            android:theme="@style/AppTheme" >
-84-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:70:13-44
+84-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:70:13-44
 85        </activity>
 86        <activity
-86-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:73:9-77:20
+86-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:73:9-77:20
 87            android:name="com.google.mlkit.vision.demo.java.StillImageActivity"
-87-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:74:13-52
+87-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:74:13-52
 88            android:exported="false"
-88-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:75:13-37
+88-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:75:13-37
 89            android:theme="@style/AppTheme" >
-89-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:76:13-44
+89-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:76:13-44
 90        </activity>
 91        <activity
-91-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:79:9-82:20
+91-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:79:9-82:20
 92            android:name="com.google.mlkit.vision.demo.kotlin.ChooserActivity"
-92-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:80:13-51
+92-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:80:13-51
 93            android:exported="false" >
-93-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:81:13-37
+93-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:81:13-37
 94        </activity>
 95        <activity
-95-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:84:9-88:20
+95-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:84:9-88:20
 96            android:name="com.google.mlkit.vision.demo.kotlin.LivePreviewActivity"
-96-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:85:13-55
+96-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:85:13-55
 97            android:exported="false"
-97-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:86:13-37
+97-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:86:13-37
 98            android:theme="@style/AppTheme" >
-98-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:87:13-44
+98-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:87:13-44
 99        </activity>
 100        <activity
-100-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:90:9-94:20
+100-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:90:9-94:20
 101            android:name="com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity"
-101-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:91:13-62
+101-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:91:13-62
 102            android:exported="false"
-102-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:92:13-37
+102-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:92:13-37
 103            android:theme="@style/AppTheme" >
-103-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:93:13-44
+103-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:93:13-44
 104        </activity>
 105        <activity
-105-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:96:9-100:20
+105-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:96:9-100:20
 106            android:name="com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity"
-106-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:97:13-61
+106-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:97:13-61
 107            android:exported="false"
-107-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:98:13-37
+107-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:98:13-37
 108            android:theme="@style/AppTheme" >
-108-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:99:13-44
+108-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:99:13-44
 109        </activity>
 110        <activity
-110-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:102:9-106:20
+110-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:102:9-106:20
 111            android:name="com.google.mlkit.vision.demo.kotlin.StillImageActivity"
-111-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:103:13-54
+111-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:103:13-54
 112            android:exported="false"
-112-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:104:13-37
+112-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:104:13-37
 113            android:theme="@style/AppTheme" >
-113-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:105:13-44
+113-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:105:13-44
 114        </activity>
 115        <activity
-115-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:108:9-110:39
+115-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:108:9-110:39
 116            android:name="com.google.mlkit.vision.demo.preference.SettingsActivity"
-116-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:109:13-56
+116-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:109:13-56
 117            android:exported="false" />
-117-->E:\GitHub\mlkit\android\vision-quickstart\app\src\main\AndroidManifest.xml:110:13-37
+117-->E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\AndroidManifest.xml:110:13-37
 118
 119        <!--
 120             Required for ML Kit Pose Detection GPU acceleration. Applications that target Android

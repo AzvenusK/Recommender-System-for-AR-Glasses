@@ -13,10 +13,10 @@ com.google.mlkit.vision.demo.app-jetified-startup-runtime-1.0.0-11 C:\Users\Anmo
 com.google.mlkit.vision.demo.app-appcompat-1.2.0-12 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\d2dbe77e000b69d8b7355288ad608163\transformed\appcompat-1.2.0\res
 com.google.mlkit.vision.demo.app-core-1.6.0-13 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\e81a46ce724630cf8c3f5fda3ef39b62\transformed\core-1.6.0\res
 com.google.mlkit.vision.demo.app-jetified-appcompat-resources-1.2.0-14 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\f8d1336b277e1e880608a911f8d96f9e\transformed\jetified-appcompat-resources-1.2.0\res
-com.google.mlkit.vision.demo.app-resValues-15 E:\GitHub\mlkit\android\vision-quickstart\app\build\generated\res\resValues\debug
-com.google.mlkit.vision.demo.app-rs-16 E:\GitHub\mlkit\android\vision-quickstart\app\build\generated\res\rs\debug
-com.google.mlkit.vision.demo.app-mergeDebugResources-17 E:\GitHub\mlkit\android\vision-quickstart\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.google.mlkit.vision.demo.app-mergeDebugResources-18 E:\GitHub\mlkit\android\vision-quickstart\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.google.mlkit.vision.demo.app-merged_res-19 E:\GitHub\mlkit\android\vision-quickstart\app\build\intermediates\merged_res\debug
-com.google.mlkit.vision.demo.app-debug-20 E:\GitHub\mlkit\android\vision-quickstart\app\src\debug\res
-com.google.mlkit.vision.demo.app-main-21 E:\GitHub\mlkit\android\vision-quickstart\app\src\main\res
+com.google.mlkit.vision.demo.app-resValues-15 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\build\generated\res\resValues\debug
+com.google.mlkit.vision.demo.app-rs-16 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\build\generated\res\rs\debug
+com.google.mlkit.vision.demo.app-mergeDebugResources-17 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.google.mlkit.vision.demo.app-mergeDebugResources-18 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.google.mlkit.vision.demo.app-merged_res-19 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\build\intermediates\merged_res\debug
+com.google.mlkit.vision.demo.app-debug-20 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\debug\res
+com.google.mlkit.vision.demo.app-main-21 E:\GitHub\Recommender-System-for-AR-Glasses\resources\google-mlkit-vision-quickstart\vision-quickstart\app\src\main\res

@@ -143,6 +143,9 @@ dependencies {
 
     // On Device Machine Learnings
     implementation "com.google.android.odml:image:1.0.0-beta1"
+
+    //Authentication
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.5'
 }
 
 configurations {

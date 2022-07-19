@@ -44,9 +44,6 @@ android {
     aaptOptions {
         noCompress "tflite"
     }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 repositories {
@@ -112,9 +109,6 @@ dependencies {
 
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.google.guava:guava:27.1-android'
-    implementation 'com.google.android.material:material:1.6.1'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0'
 
     // For how to setup gradle dependencies in Android X, see:
     // https://developer.android.com/training/testing/set-up-project#gradle-dependencies
@@ -143,9 +137,6 @@ dependencies {
 
     // On Device Machine Learnings
     implementation "com.google.android.odml:image:1.0.0-beta1"
-
-    //Authentication
-    implementation 'com.google.firebase:firebase-auth-ktx:21.0.5'
 }
 
 configurations {

@@ -140,8 +140,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1b3a2803576d9fad04f18d378acdfe99/transformed/jetified-error_prone_annotations-2.3.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b6199f0e0feea7df6a99d51990ea81e6/transformed/jetified-j2objc-annotations-1.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e58852b37870853bbfb8f8788ef86b8e/transformed/jetified-startup-runtime-1.0.0-api.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../../../Study/Unity/Sdk/platforms/android-31/android.jar</arg>
-                <arg>$MODULE_DIR$/../../../../../../../../Study/Unity/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../../Study/Unity/Sdk/platforms/android-31/android.jar</arg>
+                <arg>$MODULE_DIR$/../../../../../../../Study/Unity/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugAndroidTest" />

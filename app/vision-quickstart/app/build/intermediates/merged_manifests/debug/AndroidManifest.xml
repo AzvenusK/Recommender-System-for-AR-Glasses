@@ -42,12 +42,15 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="com.google.mlkit.vision.demo.LoginActivity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
         <!--
-          Optional: Add it to automatically download ML model to device after
+ Optional: Add it to automatically download ML model to device after
           your app is installed.
         -->
         <meta-data
@@ -66,56 +69,45 @@
         </activity>
         <activity
             android:name="com.google.mlkit.vision.demo.java.ChooserActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.java.StillImageActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.kotlin.ChooserActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.google.mlkit.vision.demo.kotlin.LivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.kotlin.StillImageActivity"
             android:exported="false"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.mlkit.vision.demo.preference.SettingsActivity"
             android:exported="false" />
-
         <!--
              Required for ML Kit Pose Detection GPU acceleration. Applications that target Android
              S+ require explicit declaration of any referenced vendor-provided libraries.
@@ -179,6 +171,52 @@
             android:name="androidx.work.multiprocess.RemoteWorkManagerService"
             android:exported="false" />
 
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
         <provider
             android:name="com.google.mlkit.common.internal.MlKitInitProvider"
             android:authorities="com.google.mlkit.vision.demo.mlkitinitprovider"
@@ -190,6 +228,12 @@
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.google.mlkit.vision.demo.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.google.mlkit.vision.demo.androidx-startup"

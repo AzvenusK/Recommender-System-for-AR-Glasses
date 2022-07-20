@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/drawable/list_item_background.xml" value="0.114" />
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_login_page.xml" value="0.23143115942028986" />
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_register.xml" value="0.23143115942028986" />
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_vision_entry_choice.xml" value="0.23143115942028986" />
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/menu/camera_button_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/resources/google-mlkit-vision-quickstart/vision-quickstart/app/src/main/res/drawable/list_item_background.xml" value="0.2285" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/resources/google-mlkit-vision-quickstart/vision-quickstart/app/src/main/res/drawable/logo_mlkit.xml" value="0.2285" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/resources/google-mlkit-vision-quickstart/vision-quickstart/app/src/main/res/layout/activity_chooser.xml" value="0.23143115942028986" />

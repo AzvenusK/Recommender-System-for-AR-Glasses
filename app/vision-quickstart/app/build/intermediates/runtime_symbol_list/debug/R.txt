@@ -1906,6 +1906,8 @@ int id browser_actions_menu_item_text 0x7f09005d
 int id browser_actions_menu_items 0x7f09005e
 int id browser_actions_menu_view 0x7f09005f
 int id btn_login 0x7f090060
+int id btn_logout 0x7f0901d3
+int id btn_register 0x7f0901d4
 int id buttonPanel 0x7f090061
 int id cache_measures 0x7f090062
 int id cancel_button 0x7f090063
@@ -1980,6 +1982,8 @@ int id enterAlways 0x7f0900a7
 int id enterAlwaysCollapsed 0x7f0900a8
 int id et_login_email 0x7f0900a9
 int id et_login_password 0x7f0900aa
+int id et_register_email 0x7f0901d5
+int id et_register_password 0x7f0901d6
 int id exitUntilCollapsed 0x7f0900ab
 int id expand_activities_button 0x7f0900ac
 int id expanded_menu 0x7f0900ad
@@ -2025,7 +2029,6 @@ int id ifRoom 0x7f0900d4
 int id ignore 0x7f0900d5
 int id ignoreRequest 0x7f0900d6
 int id image 0x7f0900d7
-int id imageView 0x7f0900d8
 int id info 0x7f0900d9
 int id invisible 0x7f0900da
 int id inward 0x7f0900db
@@ -2243,6 +2246,8 @@ int id textinput_prefix_text 0x7f0901ae
 int id textinput_suffix_text 0x7f0901af
 int id til_login_email 0x7f0901b0
 int id til_login_password 0x7f0901b1
+int id til_register_email 0x7f0901d7
+int id til_register_password 0x7f0901d8
 int id time 0x7f0901b2
 int id title 0x7f0901b3
 int id titleDividerNoCustom 0x7f0901b4
@@ -2346,6 +2351,7 @@ int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_chooser 0x7f0c001c
 int layout activity_login 0x7f0c001d
+int layout activity_register 0x7f0c007d
 int layout activity_settings 0x7f0c001e
 int layout activity_still_image 0x7f0c001f
 int layout activity_vision_camerax_live_preview 0x7f0c0020

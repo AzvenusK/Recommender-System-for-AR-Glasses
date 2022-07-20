@@ -1907,6 +1907,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_login
+id btn_logout
+id btn_register
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1981,6 +1983,8 @@ id enterAlways
 id enterAlwaysCollapsed
 id et_login_email
 id et_login_password
+id et_register_email
+id et_register_password
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2026,7 +2030,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id info
 id invisible
 id inward
@@ -2244,6 +2247,8 @@ id textinput_prefix_text
 id textinput_suffix_text
 id til_login_email
 id til_login_password
+id til_register_email
+id til_register_password
 id time
 id title
 id titleDividerNoCustom
@@ -2347,6 +2352,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chooser
 layout activity_login
+layout activity_register
 layout activity_settings
 layout activity_still_image
 layout activity_vision_camerax_live_preview

@@ -44,6 +44,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
+            android:name="com.google.mlkit.vision.demo.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.mlkit.vision.demo.LoginActivity"
             android:exported="false" />
 

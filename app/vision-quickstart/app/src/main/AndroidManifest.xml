@@ -31,6 +31,9 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
 
@@ -57,42 +60,42 @@
         </activity>
         <activity
             android:name=".java.ChooserActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".java.LivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".java.CameraXLivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".java.CameraXSourceDemoActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".java.StillImageActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".kotlin.ChooserActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".kotlin.LivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".kotlin.CameraXLivePreviewActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".kotlin.CameraXSourceDemoActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".kotlin.StillImageActivity"
             android:exported="false"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".preference.SettingsActivity"
             android:exported="false" />

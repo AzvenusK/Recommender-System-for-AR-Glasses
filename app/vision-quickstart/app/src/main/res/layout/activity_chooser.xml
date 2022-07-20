@@ -8,14 +8,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:orientation="vertical">
-  
-
 
   <Button
       android:contentDescription="Logout"
       android:id="@+id/btn_logout"
-      android:layout_width="50dp"
-      android:layout_height="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
       android:layout_marginTop="32dp"
       android:onClick="logout"
       android:text="Logout"

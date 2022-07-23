@@ -1,0 +1,30 @@
+com.google.mlkit.vision.demo.app-jetified-play-services-base-18.0.1-0 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\08529410165e3243c48844ffd4507d70\transformed\jetified-play-services-base-18.0.1\res
+com.google.mlkit.vision.demo.app-jetified-camera-core-1.0.0-SNAPSHOT-1 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\130bf5016d5a07f98da25c821ccf5f25\transformed\jetified-camera-core-1.0.0-SNAPSHOT\res
+com.google.mlkit.vision.demo.app-jetified-annotation-experimental-1.1.0-2 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\15622d8ff4f7f69f5a2069b2e509e0fd\transformed\jetified-annotation-experimental-1.1.0\res
+com.google.mlkit.vision.demo.app-cardview-1.0.0-3 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\25c602439d0c880dff968aa357d29c23\transformed\cardview-1.0.0\res
+com.google.mlkit.vision.demo.app-coordinatorlayout-1.1.0-4 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\2ab2806d6da47aeb9b8a33f051d7283b\transformed\coordinatorlayout-1.1.0\res
+com.google.mlkit.vision.demo.app-jetified-appcompat-resources-1.2.0-5 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\336d5a85201750979e04cbbe44fa52bc\transformed\jetified-appcompat-resources-1.2.0\res
+com.google.mlkit.vision.demo.app-constraintlayout-2.0.4-6 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\37e8d02953d2243cc4f4093719d85249\transformed\constraintlayout-2.0.4\res
+com.google.mlkit.vision.demo.app-material-1.4.0-7 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\3d14c9030e02732441342d6df6658440\transformed\material-1.4.0\res
+com.google.mlkit.vision.demo.app-transition-1.2.0-8 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\456adc769d0470f9f95a358f981b8a61\transformed\transition-1.2.0\res
+com.google.mlkit.vision.demo.app-jetified-camera-camera2-1.0.0-SNAPSHOT-9 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\4a165bea586503be947f14dbc66d2a64\transformed\jetified-camera-camera2-1.0.0-SNAPSHOT\res
+com.google.mlkit.vision.demo.app-work-runtime-2.7.0-10 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\4da73fd49a98c6c6d594c1f3a31895c0\transformed\work-runtime-2.7.0\res
+com.google.mlkit.vision.demo.app-jetified-viewpager2-1.0.0-11 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\566c85920d74a89aedade253d33a0cde\transformed\jetified-viewpager2-1.0.0\res
+com.google.mlkit.vision.demo.app-browser-1.4.0-12 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\610357eeaf31693a0c6b39dbe54f63f6\transformed\browser-1.4.0\res
+com.google.mlkit.vision.demo.app-jetified-work-multiprocess-2.7.0-13 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\6361e647c4099743f857b5b52e272297\transformed\jetified-work-multiprocess-2.7.0\res
+com.google.mlkit.vision.demo.app-core-1.6.0-14 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\6713f251d307949b702b2b5d8585ea74\transformed\core-1.6.0\res
+com.google.mlkit.vision.demo.app-appcompat-1.2.0-15 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\7742dd38bcaa30689101c8584a61d414\transformed\appcompat-1.2.0\res
+com.google.mlkit.vision.demo.app-lifecycle-viewmodel-2.3.1-16 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\9211b06df9bc2fd8603424bbce2fdce3\transformed\lifecycle-viewmodel-2.3.1\res
+com.google.mlkit.vision.demo.app-jetified-startup-runtime-1.0.0-17 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\98be75bb125a6975c5c7e1b1d24621c2\transformed\jetified-startup-runtime-1.0.0\res
+com.google.mlkit.vision.demo.app-work-runtime-ktx-2.7.0-18 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\b166144f26ac0211b66da15baf3a047e\transformed\work-runtime-ktx-2.7.0\res
+com.google.mlkit.vision.demo.app-jetified-camera-view-1.0.0-SNAPSHOT-19 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\b928b410ca36d35d72670707654e8575\transformed\jetified-camera-view-1.0.0-SNAPSHOT\res
+com.google.mlkit.vision.demo.app-jetified-play-services-basement-18.0.1-20 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\d3fe7628b3accd779bb7868442925787\transformed\jetified-play-services-basement-18.0.1\res
+com.google.mlkit.vision.demo.app-recyclerview-1.1.0-21 C:\Users\Anmol Kumar\.gradle\caches\transforms-3\f86c18b6cce51ffc3656d066405c57d0\transformed\recyclerview-1.1.0\res
+com.google.mlkit.vision.demo.app-google-services-22 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\build\generated\res\google-services\debug
+com.google.mlkit.vision.demo.app-resValues-23 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\build\generated\res\resValues\debug
+com.google.mlkit.vision.demo.app-rs-24 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\build\generated\res\rs\debug
+com.google.mlkit.vision.demo.app-mergeDebugResources-25 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.google.mlkit.vision.demo.app-mergeDebugResources-26 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.google.mlkit.vision.demo.app-merged_res-27 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\build\intermediates\merged_res\debug
+com.google.mlkit.vision.demo.app-debug-28 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\src\debug\res
+com.google.mlkit.vision.demo.app-main-29 E:\GitHub\Recommender-System-for-AR-Glasses\app\vision-quickstart\app\src\main\res

@@ -11,6 +11,7 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.mlkit.vision.demo.java.ChooserActivity
+import com.google.mlkit.vision.demo.kotlin.addOnFailureListener
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_register.*
 
@@ -19,13 +20,13 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        tv_register.setOnClickListener{
-            startActivity(Intent(this@LoginActivity,RegisterActivity::class.java))
+        tv_register.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
         }
 
-        btn_login.setOnClickListener{
+        btn_login.setOnClickListener {
             when{
-                TextUtils.isEmpty(et_register_email.text.toString().trim{ it <= ' '}) -> {
+                TextUtils.isEmpty(et_login_email.text.toString().trim { it <= ' ' }) -> {
                     Toast.makeText(
                         this@LoginActivity,
                         "Please Enter your Email Address.",
@@ -33,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
                     ).show()
                 }
 
-                TextUtils.isEmpty(et_register_password.text.toString().trim { it <= ' '}) -> {
+                TextUtils.isEmpty(et_login_password.text.toString().trim { it <= ' ' }) -> {
                     Toast.makeText(
                         this@LoginActivity,
                         "Please Enter your Password.",
@@ -41,17 +42,15 @@ class LoginActivity : AppCompatActivity() {
                     ).show()
                 }
                 else -> {
-                    val email: String = et_register_email.text.toString().trim { it <= ' ' }
-                    val password: String = et_register_password.text.toString().trim { it <= ' ' }
+                    val email: String = et_login_email.text.toString().trim { it <= ' ' }
+                    val password: String = et_login_password.text.toString().trim { it <= ' ' }
 
                     // Create an instance and create a register a user with email and password.
-                    FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
-                        .addOnCompleteListener {  login_task ->
-                    if (login_task.isSuccessful) {
+                    FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnSuccessListener {
                         Toast.makeText(
-                            this@LoginActivity,
-                            "You have logged in successfully",
-                            Toast.LENGTH_SHORT
+                        this@LoginActivity,
+                        "You have logged in successfully!",
+                        Toast.LENGTH_SHORT
                         ).show()
 
                         /**
@@ -65,19 +64,23 @@ class LoginActivity : AppCompatActivity() {
                         )
                         intent.putExtra("email id", email)
                         startActivity(intent)
-                        finish()
                     }
-                    else {
-                        // If the registration is not successful then show error message.
-                        Toast.makeText(
-                            this@LoginActivity,
-                            login_task.exception!!.message.toString(),
-                            Toast.LENGTH_SHORT
-                        ).show()
+
+                    FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnFailureListener() {
+                                // If the registration is not successful then show error message.
+                                Toast.makeText(
+                                    this@LoginActivity,
+                                    "Login Failed, Check your email and password, and try again!",
+                                    Toast.LENGTH_SHORT
+                                ).show()
                     }
+
                 }
+
             }
+
         }
+
     }
 
 }

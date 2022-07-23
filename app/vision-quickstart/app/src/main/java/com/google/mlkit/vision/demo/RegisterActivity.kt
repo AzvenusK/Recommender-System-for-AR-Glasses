@@ -18,6 +18,10 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
+        tv_login.setOnClickListener {
+            startActivity(Intent(this@RegisterActivity,LoginActivity::class.java))
+        }
+
         btn_register.setOnClickListener{
             when{
                 TextUtils.isEmpty(et_register_email.text.toString().trim{ it <= ' '}) -> {

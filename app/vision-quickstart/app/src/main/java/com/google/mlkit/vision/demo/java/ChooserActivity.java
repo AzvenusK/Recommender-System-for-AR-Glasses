@@ -31,7 +31,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.mlkit.vision.demo.BuildConfig;
+import com.google.mlkit.vision.demo.LoginActivity;
 import com.google.mlkit.vision.demo.R;
 
 /** Demo app chooser which allows you pick from all available testing Activities. */
@@ -51,6 +55,7 @@ public final class ChooserActivity extends AppCompatActivity
             CameraXLivePreviewActivity.class,
             CameraXSourceDemoActivity.class,
           };
+
 
   private static final int[] DESCRIPTION_IDS =
       VERSION.SDK_INT < VERSION_CODES.LOLLIPOP
@@ -89,6 +94,12 @@ public final class ChooserActivity extends AppCompatActivity
 
     listView.setAdapter(adapter);
     listView.setOnItemClickListener(this);
+  }
+
+  public void logout(View view) {
+    FirebaseAuth.getInstance().signOut();
+    startActivity(new Intent(this, LoginActivity.class));
+    finish();
   }
 
   @Override

@@ -11,7 +11,7 @@ Short and simple implementation of kernel matrix factorization with online-updat
 
 ## Installation
 ```
-pip install MatrixFactorisation
+pip install MatrixFactorization
 ```
 
 ## Usage

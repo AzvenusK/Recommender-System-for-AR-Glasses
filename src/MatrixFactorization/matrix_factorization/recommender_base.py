@@ -94,8 +94,8 @@ class RecommenderBase(BaseEstimator, RegressorMixin, metaclass=ABCMeta):
 
         if type in ("fit", "update"):
             # Check for duplicate user-item ratings
-            if X.duplicated(subset=["user_id", "item_id"]).sum() != 0:
-                raise ValueError("Duplicate user-item ratings in matrix")
+            #if X.duplicated(subset=["user_id", "item_id"]).sum() != 0:
+            #    raise ValueError("Duplicate user-item ratings in matrix")
 
             # Shuffle rows
             X = X.sample(frac=1, replace=False)

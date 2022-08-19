@@ -96,13 +96,4 @@ public class BarcodeGraphic extends Graphic {
     // Renders the barcode at the bottom of the box.
     canvas.drawText(barcode.getDisplayValue(), rect.left, rect.top - STROKE_WIDTH, barcodePaint);
   }
-
-  @Override
-  protected void onActivityResult(@Nullable String data){
-    data = barcode.getDisplayValue();
-
-    Uri myUri = Uri.parse(data);
-
-    
-  }
 }

@@ -25,3 +25,5 @@ DATA_DIR = os.path.join(ROOT_DIR, 'GitHub/Recommender-System-for-AR-Glasses/data
 articles_data = pd.read_csv(DATA_DIR, names = cols, sep=',', usecols=[0, 1, 2, 6, 15, 22], engine='python')
 
 print(articles_data.head(10))
+
+

@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a3dfffbfaf2b1fabf7e33b4771434b1/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9a3dfffbfaf2b1fabf7e33b4771434b1/transformed/jetified-segmentation-selfie-16.0.0-beta4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a3dfffbfaf2b1fabf7e33b4771434b1/transformed/jetified-segmentation-selfie-16.0.0-beta4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/segmentation-selfie/16.0.0-beta4/d0b1bec1590ed97b5ea80b5c5a4e3122b1247b83/segmentation-selfie-16.0.0-beta4-javadoc.jar!/" />

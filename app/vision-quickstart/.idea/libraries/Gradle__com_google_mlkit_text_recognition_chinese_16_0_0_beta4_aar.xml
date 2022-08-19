@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0df3af0c7ce939a3c11c40a760c124a8/transformed/jetified-text-recognition-chinese-16.0.0-beta4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0df3af0c7ce939a3c11c40a760c124a8/transformed/jetified-text-recognition-chinese-16.0.0-beta4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0df3af0c7ce939a3c11c40a760c124a8/transformed/jetified-text-recognition-chinese-16.0.0-beta4/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/text-recognition-chinese/16.0.0-beta4/a8bed9b266edd2936f10eee9a8fba075a22ef28e/text-recognition-chinese-16.0.0-beta4-javadoc.jar!/" />

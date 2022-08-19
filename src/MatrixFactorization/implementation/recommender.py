@@ -61,8 +61,6 @@ rmse = mean_squared_error(y_test, pred, squared = False)
 
 print(f'\nTest RMSE: {rmse:.4f}')
 
-baseline_model.recommend(user=20221000)
-
 baseline_model = BaselineModel(method='als', n_epochs = 20, reg = 0.5, verbose=1)
 baseline_model.fit(X_train, y_train)
 

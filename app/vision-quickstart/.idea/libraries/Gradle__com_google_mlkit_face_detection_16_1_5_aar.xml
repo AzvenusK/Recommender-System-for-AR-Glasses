@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f1ce770c93d2f436b4fc3b7d5432cceb/transformed/jetified-face-detection-16.1.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1ce770c93d2f436b4fc3b7d5432cceb/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1ce770c93d2f436b4fc3b7d5432cceb/transformed/jetified-face-detection-16.1.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/face-detection/16.1.5/ace98f39b262c59be4be4d52b871d1ba5dfff723/face-detection-16.1.5-javadoc.jar!/" />

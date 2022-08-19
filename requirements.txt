@@ -12,14 +12,6 @@ json5==0.9.9
 jsonschema==4.9.1
 keras==2.9.0
 Keras-Preprocessing==1.1.2
-launch==0.10.6
-launch-ros==0.11.4
-launch-testing==0.10.6
-launch-testing-ros==0.11.4
-launch-xml==0.10.6
-launch-yaml==0.10.6
-launchpadlib==1.10.13
-matrix-factorization==1.3
 numpy==1.21.0
 pandas==1.3.4
 pickleshare==0.7.5

@@ -4,7 +4,11 @@ import pandas as pd
 pd.options.display.max_rows = 100
 
 # Modeling
-from matrix_factorization import BaselineModel, KernelMF, train_update_test_split
+#from matrix_factorization import BaselineModel, KernelMF, train_update_test_split
+from baseline_model import BaselineModel
+from kernel_matrix_factorization import KernelMF
+from utils import train_update_test_split
+
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 

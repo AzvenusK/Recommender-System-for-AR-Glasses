@@ -2,7 +2,7 @@ import numba as nb
 import numpy as np
 import pandas as pd
 
-from .recommender_base import RecommenderBase
+from recommender_base import RecommenderBase
 
 from typing import Tuple
 

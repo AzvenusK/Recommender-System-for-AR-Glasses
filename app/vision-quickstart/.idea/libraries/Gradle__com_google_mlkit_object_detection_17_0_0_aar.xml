@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/399d72df3dc4c5d188632cd77b53d445/transformed/jetified-object-detection-17.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/399d72df3dc4c5d188632cd77b53d445/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/399d72df3dc4c5d188632cd77b53d445/transformed/jetified-object-detection-17.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/object-detection/17.0.0/cf6abb4e0530df2d87dcb506cf49773d3c9a4d48/object-detection-17.0.0-javadoc.jar!/" />

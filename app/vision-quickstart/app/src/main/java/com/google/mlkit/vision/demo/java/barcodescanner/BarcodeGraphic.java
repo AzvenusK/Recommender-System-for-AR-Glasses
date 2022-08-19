@@ -23,9 +23,14 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
+import android.net.Uri;
+import android.preference.PreferenceManager;
+
 import com.google.mlkit.vision.barcode.common.Barcode;
 import com.google.mlkit.vision.demo.GraphicOverlay;
 import com.google.mlkit.vision.demo.GraphicOverlay.Graphic;
+
+import javax.annotation.Nullable;
 
 /** Graphic instance for rendering Barcode position and content information in an overlay view. */
 public class BarcodeGraphic extends Graphic {

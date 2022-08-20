@@ -26,12 +26,8 @@ random.seed(rand_seed)
 
 
 cols = ['user_id', 'item_id', 'rating', 'category','color']
-# movie_data = pd.read_csv('../data/ml-1m/ratings.dat', names = cols, sep = '::', usecols=[0, 1, 2], engine='python')
 
-DATA_DIR = '/home/anmol/GitHub/Recommender-System-for-AR-Glasses/data/articles.csv'
-#print(DATA_DIR)
-
-articles_data = pd.read_csv(DATA_DIR, names = cols, sep=',', usecols=[0, 1, 2, 6, 15], engine='python')
+articles_data = pd.read_csv('src/MatrixFactorization/data/articles.csv', names = cols, sep=',', usecols=[0, 1, 2, 6, 15], engine='python')
 
 X = articles_data[['user_id', 'item_id']]
 y = articles_data['rating']

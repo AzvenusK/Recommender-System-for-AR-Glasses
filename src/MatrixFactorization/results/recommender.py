@@ -74,7 +74,10 @@ rmse = mean_squared_error(y_test, pred, squared = False)
 
 user = 20222000
 items_known = X_train.query('user_id == @user')['item_id']
-recommended_item_df = matrix_fact.recommend(user=user, items_known=items_known)['item_id'].head(3).astype(str)
-recommended_items = recommended_item_df.str.cat(sep = ' ')
+recommended_item_df = matrix_fact.recommend(user=user, items_known=items_known)['item_id']
+top_recommendation = random.sample(list(recommended_item_df), 3)
+recommended_items = ' '.join(map(str,top_recommendation))
+
+print(recommended_item_df)
 print('\n Recommended Items Are: \n')
 print(recommended_items)

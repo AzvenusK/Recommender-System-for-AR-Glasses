@@ -5,8 +5,8 @@ pd.options.display.max_rows = 100
 
 # Modeling
 #from matrix_factorization import BaselineModel, KernelMF, train_update_test_split
-from baseline_model import BaselineModel
 from kernel_matrix_factorization import KernelMF
+from baseline_model import BaselineModel
 from utils import train_update_test_split
 
 from sklearn.metrics import mean_squared_error

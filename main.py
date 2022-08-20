@@ -1,15 +1,5 @@
-# Libraries
-import src.MatrixFactorization.implementation.recommender as rec
-from fastapi import FastAPI
+from distutils.log import debug
+from src.MatrixFactorization.implementation.api import app
 
-# App Object
-app = FastAPI()
-
-# Index route, opens automatically at port
-@app.get('/')
-def recommededItems():
-    data = rec.recommended_items
-    return {data}
-
-
-
+if __name__ == "__main__":
+    app.run(debug=True)

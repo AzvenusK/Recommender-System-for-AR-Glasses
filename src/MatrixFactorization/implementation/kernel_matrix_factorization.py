@@ -3,7 +3,7 @@ import numba as nb
 import numpy as np
 import pandas as pd
 
-from .kernels import (
+from kernels import (
     kernel_linear,
     kernel_sigmoid,
     kernel_rbf,
@@ -11,7 +11,7 @@ from .kernels import (
     kernel_sigmoid_sgd_update,
     kernel_rbf_sgd_update,
 )
-from .recommender_base import RecommenderBase
+from recommender_base import RecommenderBase
 
 from typing import Tuple, Union
 

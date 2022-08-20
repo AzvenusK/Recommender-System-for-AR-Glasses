@@ -2,6 +2,7 @@ fastapi==0.79.1
 Flask==2.2.1
 grpcio==1.47.0
 gunicorn==20.1.0
+ipython==7.29.0
 numba==0.56.0
 numpy==1.21.0
 pandas==1.4.3

@@ -1,5 +1,5 @@
 # Libraries
-import recommender as rec
+import src.MatrixFactorization.results.recommender as rec
 from fastapi import FastAPI
 
 # App Object

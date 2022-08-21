@@ -9,7 +9,7 @@ app = FastAPI()
 @app.get('/')
 def recommededItems():
     data = rec.recommended_items
-    return {data}
+    return {"message": data}
 
 
 

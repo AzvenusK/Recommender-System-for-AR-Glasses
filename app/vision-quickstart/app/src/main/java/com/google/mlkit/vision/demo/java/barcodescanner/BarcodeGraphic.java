@@ -115,7 +115,7 @@ public class BarcodeGraphic extends Graphic {
 
               try {
                 JSONObject jsonObject = new JSONObject(response);
-                String recommendedItems = jsonObject.getString("0");
+                String recommendedItems = jsonObject.getString("message");
               } catch (JSONException e) {
                 e.printStackTrace();
               }
@@ -132,6 +132,6 @@ public class BarcodeGraphic extends Graphic {
 
     String recommend = stringRequest.toString();
     // Renders the recommended items at the bottom of the box.
-    canvas.drawText(recommend, rect.left, rect.top - STROKE_WIDTH, barcodePaint);
+    canvas.drawText(url, rect.left - 500.0f, rect.top - STROKE_WIDTH, barcodePaint);
   }
 }

@@ -170,7 +170,7 @@ class RecommenderBase(BaseEstimator, RegressorMixin, metaclass=ABCMeta):
     def recommend(
         self,
         user: Any,
-        amount: int = 10,
+        amount: int = 1000,
         items_known: list = None,
         include_user: bool = True,
         bound_ratings: bool = True,

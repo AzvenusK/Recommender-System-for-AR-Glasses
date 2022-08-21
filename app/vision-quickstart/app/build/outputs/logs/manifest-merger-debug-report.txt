@@ -100,6 +100,7 @@ MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/anmol/.gradle/caches/
 MERGED from [androidx.sqlite:sqlite:2.1.0] /home/anmol/.gradle/caches/transforms-3/8c98a8d240f048ff22eef2c098282d68/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/anmol/.gradle/caches/transforms-3/4f4ec69ab1381c0689e55cf785e87f82/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/anmol/.gradle/caches/transforms-3/96ec3874a2da80e759f4b58ae5f6e589/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.volley:volley:1.2.1] /home/anmol/.gradle/caches/transforms-3/846935049cc667f05a694890580d1619/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/anmol/.gradle/caches/transforms-3/15622d8ff4f7f69f5a2069b2e509e0fd/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /home/anmol/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-104:12
 INJECTED from /home/anmol/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-104:12
@@ -318,6 +319,8 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/anmol/.gradle/caches/transfor
 MERGED from [androidx.tracing:tracing:1.0.0] /home/anmol/.gradle/caches/transforms-3/4f4ec69ab1381c0689e55cf785e87f82/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/anmol/.gradle/caches/transforms-3/96ec3874a2da80e759f4b58ae5f6e589/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/anmol/.gradle/caches/transforms-3/96ec3874a2da80e759f4b58ae5f6e589/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.2.1] /home/anmol/.gradle/caches/transforms-3/846935049cc667f05a694890580d1619/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /home/anmol/.gradle/caches/transforms-3/846935049cc667f05a694890580d1619/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/anmol/.gradle/caches/transforms-3/15622d8ff4f7f69f5a2069b2e509e0fd/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/anmol/.gradle/caches/transforms-3/15622d8ff4f7f69f5a2069b2e509e0fd/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/anmol/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/AndroidManifest.xml:13:5-157

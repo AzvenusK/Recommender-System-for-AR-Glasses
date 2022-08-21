@@ -140,6 +140,9 @@ dependencies {
 
     // On Device Machine Learnings
     implementation "com.google.android.odml:image:1.0.0-beta1"
+
+    //API Implementation
+    implementation 'com.android.volley:volley:1.2.1'
 }
 
 configurations {

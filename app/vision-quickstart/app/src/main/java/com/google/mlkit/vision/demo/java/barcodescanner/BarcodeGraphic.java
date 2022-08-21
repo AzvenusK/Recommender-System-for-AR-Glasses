@@ -130,8 +130,9 @@ public class BarcodeGraphic extends Graphic {
             }
     );
 
+
     String recommend = stringRequest.toString();
     // Renders the recommended items at the bottom of the box.
-    canvas.drawText(url, rect.left - 500.0f, rect.top - STROKE_WIDTH, barcodePaint);
+    canvas.drawText(recommend, rect.left - 200.0f, rect.top - STROKE_WIDTH, barcodePaint);
   }
 }

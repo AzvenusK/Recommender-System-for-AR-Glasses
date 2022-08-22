@@ -27,8 +27,10 @@
         <entry key="app/src/main/res/layout/activity_chooser.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/activity_still_image.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/activity_vision_entry_choice.xml" value="0.333786231884058" />
+        <entry key="app/src/main/res/layout/activity_vision_live_preview.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/settings_style.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/spinner_style.xml" value="0.333786231884058" />
         <entry key="app/src/main/res/layout/toggle_style.xml" value="0.333786231884058" />

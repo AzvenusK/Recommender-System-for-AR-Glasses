@@ -25,12 +25,23 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.net.Uri;
 import android.preference.PreferenceManager;
+import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.mlkit.vision.barcode.common.Barcode;
 import com.google.mlkit.vision.demo.GraphicOverlay;
 import com.google.mlkit.vision.demo.GraphicOverlay.Graphic;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import javax.annotation.Nullable;
+
 
 /** Graphic instance for rendering Barcode position and content information in an overlay view. */
 public class BarcodeGraphic extends Graphic {
@@ -93,7 +104,35 @@ public class BarcodeGraphic extends Graphic {
         rect.left + textWidth + (2 * STROKE_WIDTH),
         rect.top,
         labelPaint);
-    // Renders the barcode at the bottom of the box.
-    canvas.drawText(barcode.getDisplayValue(), rect.left, rect.top - STROKE_WIDTH, barcodePaint);
+
+    String url = "https://recommend-ar.herokuapp.com";
+    String barcodeVal = barcode.getDisplayValue();
+
+    StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+            new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+              try {
+                JSONObject jsonObject = new JSONObject(response);
+                String recommendedItems = jsonObject.getString("message");
+              } catch (JSONException e) {
+                e.printStackTrace();
+              }
+
+            }
+            },
+            new Response.ErrorListener() {
+              @Override
+              public void onErrorResponse(VolleyError error) {
+
+              }
+            }
+    );
+
+
+    String recommend = stringRequest.toString();
+    // Renders the recommended items at the bottom of the box.
+    canvas.drawText(recommend, rect.left - 200.0f, rect.top - STROKE_WIDTH, barcodePaint);
   }
 }

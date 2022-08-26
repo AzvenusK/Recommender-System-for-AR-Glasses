@@ -104,10 +104,8 @@ public class BarcodeGraphic extends Graphic {
         rect.left + textWidth + (2 * STROKE_WIDTH),
         rect.top,
         labelPaint);
-
+      /*
     String url = "https://recommend-ar.herokuapp.com";
-    String barcodeVal = barcode.getDisplayValue();
-
     StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
             new Response.Listener<String>() {
             @Override
@@ -132,7 +130,8 @@ public class BarcodeGraphic extends Graphic {
 
 
     String recommend = stringRequest.toString();
+     */
     // Renders the recommended items at the bottom of the box.
-    canvas.drawText(recommend, rect.left - 200.0f, rect.top - STROKE_WIDTH, barcodePaint);
+    canvas.drawText(barcode.getDisplayValue(), rect.left, rect.top - STROKE_WIDTH, barcodePaint);
   }
 }

@@ -312,14 +312,10 @@ public final class StillImageActivity extends AppCompatActivity {
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
       tryReloadAndDetectInImage();
-      Button recButton = (Button) findViewById(R.id.rec_button);
-      recButton.setEnabled(true);
     } else if (requestCode == REQUEST_CHOOSE_IMAGE && resultCode == RESULT_OK) {
       // In this case, imageUri is returned by the chooser, save it.
       imageUri = data.getData();
       tryReloadAndDetectInImage();
-      Button recButton = (Button) findViewById(R.id.rec_button);
-      recButton.setEnabled(true);
     } else {
       super.onActivityResult(requestCode, resultCode, data);
     }
@@ -442,6 +438,8 @@ public final class StillImageActivity extends AppCompatActivity {
           break;
         case BARCODE_SCANNING:
           imageProcessor = new BarcodeScannerProcessor(this);
+          Button recButton = (Button) findViewById(R.id.rec_button);
+          recButton.setEnabled(true);
           break;
         case TEXT_RECOGNITION_LATIN:
           if (imageProcessor != null) {

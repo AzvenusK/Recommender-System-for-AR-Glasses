@@ -4,17 +4,7 @@
             "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-26:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/6713f251d307949b702b2b5d8585ea74/transformed/core-1.6.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/7742dd38bcaa30689101c8584a61d414/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/home/anmol/.gradle/caches/transforms-3/d9bd2527d463ab76060978c153c002f7/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/anmol/.gradle/caches/transforms-3/8ec8b658fd7f3b9c9ebaedf1d4c4158c/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

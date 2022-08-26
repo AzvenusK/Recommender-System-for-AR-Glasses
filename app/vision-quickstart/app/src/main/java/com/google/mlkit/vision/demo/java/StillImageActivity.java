@@ -34,6 +34,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.Spinner;
@@ -43,6 +44,7 @@ import com.google.mlkit.common.model.LocalModel;
 import com.google.mlkit.vision.demo.BitmapUtils;
 import com.google.mlkit.vision.demo.GraphicOverlay;
 import com.google.mlkit.vision.demo.R;
+import com.google.mlkit.vision.demo.RecommendActivity;
 import com.google.mlkit.vision.demo.VisionImageProcessor;
 import com.google.mlkit.vision.demo.java.barcodescanner.BarcodeScannerProcessor;
 import com.google.mlkit.vision.demo.java.facedetector.FaceDetectorProcessor;
@@ -178,6 +180,9 @@ public final class StillImageActivity extends AppCompatActivity {
               SettingsActivity.EXTRA_LAUNCH_SOURCE, SettingsActivity.LaunchSource.STILL_IMAGE);
           startActivity(intent);
         });
+
+    Button recButton = (Button) findViewById(R.id.rec_button);
+    recButton.setEnabled(false);
   }
 
   @Override
@@ -434,6 +439,14 @@ public final class StillImageActivity extends AppCompatActivity {
           break;
         case BARCODE_SCANNING:
           imageProcessor = new BarcodeScannerProcessor(this);
+          Button recButton = (Button) findViewById(R.id.rec_button);
+          recButton.setEnabled(true);
+          recButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              startActivity(new Intent(StillImageActivity.this, RecommendActivity.class));
+            }
+          });
           break;
         case TEXT_RECOGNITION_LATIN:
           if (imageProcessor != null) {

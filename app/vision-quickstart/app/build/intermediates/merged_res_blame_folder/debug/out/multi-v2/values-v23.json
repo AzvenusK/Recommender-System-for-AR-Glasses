@@ -4,26 +4,17 @@
             "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-26:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/25c602439d0c880dff968aa357d29c23/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/home/anmol/.gradle/caches/transforms-3/630b7fbc2603673449b9f67dd9381c9b/transformed/work-runtime-2.7.0/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "52",
-                        "startColumns": "4",
-                        "startOffsets": "3361",
-                        "endLines": "54",
-                        "endColumns": "12",
-                        "endOffsets": "3506"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
                     }
                 },
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/7742dd38bcaa30689101c8584a61d414/transformed/appcompat-1.2.0/res/values-v23/values-v23.xml",
+                    "source": "/home/anmol/.gradle/caches/transforms-3/d9bd2527d463ab76060978c153c002f7/transformed/appcompat-1.2.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,17 +33,26 @@
                     }
                 },
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/4da73fd49a98c6c6d594c1f3a31895c0/transformed/work-runtime-2.7.0/res/values-v23/values-v23.xml",
+                    "source": "/home/anmol/.gradle/caches/transforms-3/13f147a7050b6ff8ecc5f539045487d1/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "52",
+                        "startColumns": "4",
+                        "startOffsets": "3361",
+                        "endLines": "54",
+                        "endColumns": "12",
+                        "endOffsets": "3506"
                     }
                 },
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/3d14c9030e02732441342d6df6658440/transformed/material-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/home/anmol/.gradle/caches/transforms-3/d1da92255084814adad1cd770993769d/transformed/material-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

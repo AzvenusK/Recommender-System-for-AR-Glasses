@@ -44,6 +44,7 @@ import com.google.mlkit.common.model.LocalModel;
 import com.google.mlkit.vision.demo.BitmapUtils;
 import com.google.mlkit.vision.demo.GraphicOverlay;
 import com.google.mlkit.vision.demo.R;
+import com.google.mlkit.vision.demo.RecommendActivity;
 import com.google.mlkit.vision.demo.VisionImageProcessor;
 import com.google.mlkit.vision.demo.java.barcodescanner.BarcodeScannerProcessor;
 import com.google.mlkit.vision.demo.java.facedetector.FaceDetectorProcessor;
@@ -440,6 +441,12 @@ public final class StillImageActivity extends AppCompatActivity {
           imageProcessor = new BarcodeScannerProcessor(this);
           Button recButton = (Button) findViewById(R.id.rec_button);
           recButton.setEnabled(true);
+          recButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              startActivity(new Intent(StillImageActivity.this, RecommendActivity.class));
+            }
+          });
           break;
         case TEXT_RECOGNITION_LATIN:
           if (imageProcessor != null) {

@@ -2139,6 +2139,9 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rec1
+id rec2
+id rec3
 id rec_button
 id rectangles
 id reverseSawtooth

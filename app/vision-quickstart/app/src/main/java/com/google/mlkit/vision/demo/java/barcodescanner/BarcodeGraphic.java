@@ -25,6 +25,7 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.net.Uri;
 import android.preference.PreferenceManager;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.android.volley.Request;

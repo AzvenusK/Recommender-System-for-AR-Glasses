@@ -34,6 +34,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.Spinner;
@@ -178,6 +179,9 @@ public final class StillImageActivity extends AppCompatActivity {
               SettingsActivity.EXTRA_LAUNCH_SOURCE, SettingsActivity.LaunchSource.STILL_IMAGE);
           startActivity(intent);
         });
+
+    Button recButton = (Button) findViewById(R.id.rec_button);
+    recButton.setEnabled(false);
   }
 
   @Override
@@ -308,10 +312,14 @@ public final class StillImageActivity extends AppCompatActivity {
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
       tryReloadAndDetectInImage();
+      Button recButton = (Button) findViewById(R.id.rec_button);
+      recButton.setEnabled(true);
     } else if (requestCode == REQUEST_CHOOSE_IMAGE && resultCode == RESULT_OK) {
       // In this case, imageUri is returned by the chooser, save it.
       imageUri = data.getData();
       tryReloadAndDetectInImage();
+      Button recButton = (Button) findViewById(R.id.rec_button);
+      recButton.setEnabled(true);
     } else {
       super.onActivityResult(requestCode, resultCode, data);
     }

@@ -44,6 +44,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
+            android:name="com.google.mlkit.vision.demo.LaunchNavActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.mlkit.vision.demo.RecommendActivity"
             android:exported="false" />
         <activity

@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/drawable/list_item_background.xml" value="0.114" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_chooser.xml" value="0.10400000000000001" />
+        <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_launch_nav.xml" value="0.1" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_login_page.xml" value="0.23143115942028986" />
         <entry key="..\:/GitHub/Recommender-System-for-AR-Glasses/app/vision-quickstart/app/src/main/res/layout/activity_register.xml" value="0.23143115942028986" />
@@ -23,21 +24,6 @@
         <entry key="..\:/GitHub/mlkit/android/vision-quickstart/app/src/main/res/layout/spinner_style.xml" value="0.23143115942028986" />
         <entry key="..\:/GitHub/mlkit/android/vision-quickstart/app/src/main/res/layout/toggle_style.xml" value="0.23143115942028986" />
         <entry key="..\:/GitHub/mlkit/android/vision-quickstart/app/src/main/res/xml/preference_live_preview_quickstart.xml" value="0.23143115942028986" />
-        <entry key="app/src/main/res/drawable/list_item_background.xml" value="0.2845" />
-        <entry key="app/src/main/res/layout/activity_chooser.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/activity_recommend.xml" value="0.17325227963525835" />
-        <entry key="app/src/main/res/layout/activity_register.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/activity_still_image.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/activity_vision_entry_choice.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/activity_vision_live_preview.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/settings_style.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/spinner_style.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/layout/toggle_style.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/menu/camera_button_menu.xml" value="0.35625" />
-        <entry key="app/src/main/res/xml/preference_live_preview_quickstart.xml" value="0.333786231884058" />
-        <entry key="app/src/main/res/xml/preference_still_image.xml" value="0.333786231884058" />
       </map>
     </option>
   </component>

@@ -2356,6 +2356,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_chooser 0x7f0c001c
+int layout activity_launch_nav 0x7f0c007f
 int layout activity_login 0x7f0c001d
 int layout activity_recommend 0x7f0c001e
 int layout activity_register 0x7f0c001f

@@ -2357,6 +2357,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_chooser
+layout activity_launch_nav
 layout activity_login
 layout activity_recommend
 layout activity_register

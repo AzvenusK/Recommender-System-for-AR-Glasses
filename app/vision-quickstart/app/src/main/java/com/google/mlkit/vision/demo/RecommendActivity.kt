@@ -1,5 +1,7 @@
 package com.google.mlkit.vision.demo
 
+import android.content.Intent
+import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -15,6 +17,10 @@ class RecommendActivity : AppCompatActivity() {
         val recParts = apiResponse.split(delimiter1,delimiter2)
         findViewById<TextView>(R.id.rec1).text = recParts[3]
         findViewById<TextView>(R.id.rec2).text = recParts[4]
+        findViewById<TextView>(R.id.rec2).setOnClickListener {
+            val intent = Intent(this@RecommendActivity,LaunchNavActivity::class.java)
+            startActivity(intent)
+        }
         findViewById<TextView>(R.id.rec3).text = recParts[5]
     }
 }

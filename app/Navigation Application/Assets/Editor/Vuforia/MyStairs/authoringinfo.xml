@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_info.xsd">
+    <TargetSet version="3.4">
+        <AreaTarget version="5.0" bbox="-4.3925 -4.1570 0.1882 0.3915 0.8754 2.6204" targetId="067f39be415049ffa0700cdb7a7a8fa0" name="MyStairs" pathAuthoring="067f39be415049ffa0700cdb7a7a8fa0_authoring.glb" pathOcclusion="067f39be415049ffa0700cdb7a7a8fa0_occlusion.3dt" pathNavMesh="067f39be415049ffa0700cdb7a7a8fa0_navmesh.glb" />
+    </TargetSet>
+</QCARInfo>

@@ -4,7 +4,7 @@
             "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-26:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/d1da92255084814adad1cd770993769d/transformed/material-1.4.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "C:\\Users\\Anmol Kumar\\.gradle\\caches\\transforms-3\\d1da92255084814adad1cd770993769d\\transformed\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

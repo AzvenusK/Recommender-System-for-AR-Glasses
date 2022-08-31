@@ -4,7 +4,7 @@
             "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-26:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/anmol/.gradle/caches/transforms-3/d9bd2527d463ab76060978c153c002f7/transformed/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\Anmol Kumar\\.gradle\\caches\\transforms-3\\d9bd2527d463ab76060978c153c002f7\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -16,14 +16,14 @@ public class LaunchNavActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_launch_nav);
-        Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
-        mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-        List<ResolveInfo> pkgAppsList = getPackageManager().queryIntentActivities( mainIntent, 0);
+        Intent mainIntent = getPackageManager().getLaunchIntentForPackage("com.DefaultCompany.NavigationApplication");
+        //mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);
+        //List<ResolveInfo> pkgAppsList = getPackageManager().queryIntentActivities( mainIntent, 0);
         //Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.google.android.youtube");
         if (mainIntent != null) {
             startActivity(mainIntent);
         } else {
-            Toast.makeText(LaunchNavActivity.this, "There is no package available in android", Toast.LENGTH_LONG).show();
+            Toast.makeText(LaunchNavActivity.this, "Switching Applications", Toast.LENGTH_LONG).show();
         }
     }
 }

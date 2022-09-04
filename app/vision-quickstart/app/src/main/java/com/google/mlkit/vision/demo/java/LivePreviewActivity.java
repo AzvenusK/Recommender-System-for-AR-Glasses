@@ -24,6 +24,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -35,6 +36,7 @@ import com.google.mlkit.vision.demo.CameraSource;
 import com.google.mlkit.vision.demo.CameraSourcePreview;
 import com.google.mlkit.vision.demo.GraphicOverlay;
 import com.google.mlkit.vision.demo.R;
+import com.google.mlkit.vision.demo.RecommendActivity;
 import com.google.mlkit.vision.demo.java.barcodescanner.BarcodeScannerProcessor;
 import com.google.mlkit.vision.demo.java.facedetector.FaceDetectorProcessor;
 import com.google.mlkit.vision.demo.java.labeldetector.LabelDetectorProcessor;
@@ -141,6 +143,9 @@ public final class LivePreviewActivity extends AppCompatActivity
         });
 
     createCameraSource(selectedModel);
+
+    Button recButton = (Button) findViewById(R.id.rec_button);
+    recButton.setEnabled(false);
   }
 
   @Override
@@ -245,6 +250,14 @@ public final class LivePreviewActivity extends AppCompatActivity
         case BARCODE_SCANNING:
           Log.i(TAG, "Using Barcode Detector Processor");
           cameraSource.setMachineLearningFrameProcessor(new BarcodeScannerProcessor(this));
+          Button recButton = (Button) findViewById(R.id.rec_button);
+          recButton.setEnabled(true);
+          recButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              startActivity(new Intent(LivePreviewActivity.this, RecommendActivity.class));
+            }
+          });
           break;
         case IMAGE_LABELING:
           Log.i(TAG, "Using Image Label Detector Processor");
